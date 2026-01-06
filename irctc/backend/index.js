@@ -63,6 +63,7 @@ app.post("/register", async(req, res) =>{
         res.json({created: false});
     }
 });
+// User filteration by email
 
 app.post("/login", async(req, res) =>{
     try {
